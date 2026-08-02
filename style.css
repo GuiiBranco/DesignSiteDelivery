@@ -16,10 +16,32 @@
 }
 
 footer {
-    background-color: lime;
-    height: 80px;
+    /* background-color: lime; */
+    height: 90px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: end;
+    filter: drop-shadow(0px 0px 5px);
+}
+
+.icones-footer {
+    background-color: white;
+    height: 70px;
+    grid-row: 1 / 2;
+    grid-column: 1 / 6;
+    border-radius: 6px 6px;
+}
+
+.btn-central {
+    /* background-color: blue; */
+    height: 90px;
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+}
+
+.btn-central img {
+    height: 80px;
 }
