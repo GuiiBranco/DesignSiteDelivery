@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo-secao {
+    padding-left: 8px;
+}
+
+.item {
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 8px 5px 8px;
+}
+
+footer {
+    background-color: lime;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+}
