@@ -23,7 +23,6 @@
 }
 
 .item {
-    /* background-color: yellow; */
     height: 110px;
     display: flex;
     justify-content: space-between;
@@ -32,7 +31,6 @@
 }
 
 .descricao-item {
-    /* background-color: cyan; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,7 +58,6 @@
 }
 
 footer {
-    /* background-color: lime; */
     height: 90px;
     width: 100%;
     position: fixed;
@@ -86,7 +83,6 @@ footer {
 }
 
 .btn-central {
-    /* background-color: blue; */
     height: 90px;
     grid-row: 1 / 2;
     grid-column: 3 / 4;
